@@ -1,0 +1,336 @@
+{
+  "schema": 1,
+  "id": "shisui-uchiha-susanoo",
+  "name": "Shisui Uchiha [GREEN SUSANOO & CROWS 🐦‍⬛]",
+  "author": "sonytaka32-beep",
+  "license": "CC-BY-NC-SA-4.0",
+  "source": "Fan art - Shisui Uchiha © Masashi Kishimoto / Shueisha / Studio Pierrot / Naruto Shippuden",
+  "pixelArt": true,
+  "scale": 1,
+  "canvas": {
+    "w": 300,
+    "h": 300
+  },
+  "anchor": {
+    "x": 150,
+    "baseline": 272
+  },
+  "contentBox": {
+    "x": 20,
+    "y": 20,
+    "w": 260,
+    "h": 260
+  },
+  "hitBoxes": {
+    "default": {
+      "x": 20,
+      "y": 20,
+      "w": 260,
+      "h": 260
+    },
+    "wide": {
+      "x": 10,
+      "y": 10,
+      "w": 280,
+      "h": 280
+    },
+    "sleeping": {
+      "x": 30,
+      "y": 50,
+      "w": 240,
+      "h": 220
+    }
+  },
+  "animations": {
+    "idle": {
+      "sheet": "idle.png",
+      "frameW": 300,
+      "frameH": 300,
+      "cols": 6,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 300
+      },
+      "loop": true,
+      "frames": [
+        {
+          "i": 0,
+          "ms": 180
+        },
+        {
+          "i": 1,
+          "ms": 150
+        },
+        {
+          "i": 2,
+          "ms": 180
+        },
+        {
+          "i": 3,
+          "ms": 180
+        },
+        {
+          "i": 4,
+          "ms": 180
+        },
+        {
+          "i": 5,
+          "ms": 180
+        }
+      ]
+    },
+    "working": {
+      "sheet": "working.png",
+      "frameW": 300,
+      "frameH": 300,
+      "cols": 6,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 300
+      },
+      "loop": true,
+      "frames": [
+        {
+          "i": 0,
+          "ms": 100
+        },
+        {
+          "i": 1,
+          "ms": 95
+        },
+        {
+          "i": 2,
+          "ms": 95
+        },
+        {
+          "i": 3,
+          "ms": 95
+        },
+        {
+          "i": 4,
+          "ms": 95
+        },
+        {
+          "i": 5,
+          "ms": 100
+        }
+      ]
+    },
+    "thinking": {
+      "sheet": "thinking.png",
+      "frameW": 300,
+      "frameH": 300,
+      "cols": 6,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 300
+      },
+      "loop": true,
+      "frames": [
+        {
+          "i": 0,
+          "ms": 140
+        },
+        {
+          "i": 1,
+          "ms": 130
+        },
+        {
+          "i": 2,
+          "ms": 130
+        },
+        {
+          "i": 3,
+          "ms": 130
+        },
+        {
+          "i": 4,
+          "ms": 130
+        },
+        {
+          "i": 5,
+          "ms": 140
+        }
+      ]
+    },
+    "error": {
+      "sheet": "error.png",
+      "frameW": 300,
+      "frameH": 300,
+      "cols": 5,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 300
+      },
+      "loop": false,
+      "frames": [
+        {
+          "i": 0,
+          "ms": 130
+        },
+        {
+          "i": 1,
+          "ms": 120
+        },
+        {
+          "i": 2,
+          "ms": 120
+        },
+        {
+          "i": 3,
+          "ms": 120
+        },
+        {
+          "i": 4,
+          "ms": 150
+        }
+      ]
+    },
+    "success": {
+      "sheet": "success.png",
+      "frameW": 300,
+      "frameH": 300,
+      "cols": 5,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 300
+      },
+      "loop": false,
+      "frames": [
+        {
+          "i": 0,
+          "ms": 130
+        },
+        {
+          "i": 1,
+          "ms": 120
+        },
+        {
+          "i": 2,
+          "ms": 120
+        },
+        {
+          "i": 3,
+          "ms": 120
+        },
+        {
+          "i": 4,
+          "ms": 160
+        }
+      ]
+    },
+    "sleep": {
+      "sheet": "sleep.png",
+      "frameW": 300,
+      "frameH": 300,
+      "cols": 6,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 300
+      },
+      "loop": true,
+      "frames": [
+        {
+          "i": 0,
+          "ms": 250
+        },
+        {
+          "i": 1,
+          "ms": 250
+        },
+        {
+          "i": 2,
+          "ms": 250
+        },
+        {
+          "i": 3,
+          "ms": 250
+        },
+        {
+          "i": 4,
+          "ms": 250
+        },
+        {
+          "i": 5,
+          "ms": 260
+        }
+      ]
+    }
+  },
+  "states": {
+    "idle": [
+      "idle"
+    ],
+    "thinking": [
+      "thinking"
+    ],
+    "working": [
+      "working"
+    ],
+    "juggling": [
+      "working"
+    ],
+    "error": [
+      "error"
+    ],
+    "attention": [
+      "success"
+    ],
+    "notification": [
+      "thinking"
+    ],
+    "sweeping": [
+      "working"
+    ],
+    "carrying": [
+      "working"
+    ],
+    "sleeping": [
+      "sleep"
+    ],
+    "waking": [
+      "sleep"
+    ],
+    "roam": [
+      "working"
+    ]
+  },
+  "reactions": {
+    "tapLeft": "thinking",
+    "tapRight": "success",
+    "tickle": "working",
+    "drag": "working"
+  },
+  "roam": {
+    "anim": "working",
+    "faces": "right"
+  },
+  "timings": {
+    "minDisplay": {
+      "working": 1000,
+      "thinking": 1000,
+      "attention": 1800,
+      "error": 1800
+    },
+    "autoReturn": {
+      "attention": 2400,
+      "error": 3000
+    },
+    "wakeMs": 900
+  },
+  "sleep": {
+    "afterMs": 60000
+  }
+}
